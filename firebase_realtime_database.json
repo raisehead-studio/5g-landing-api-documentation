@@ -1,0 +1,23 @@
+{
+    "basic_info":"",
+    "latest_news" :{
+        "latest_news":"",
+        "feeds":"",
+        "media_report":"",
+        "breaking_news":"",
+        "media_section":"",
+        "open_bid":"",
+        "open_data":"",
+        "industry_information":""
+    },
+    "coordination_set_up":{
+        "coordination_set_up":""
+    },
+    "use_case": {
+        "hight_light":"",
+        "result": ""
+    },
+    "orientation":{
+        "progress": ""
+    }
+}

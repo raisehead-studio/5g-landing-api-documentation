@@ -1,0 +1,641 @@
+{
+	"info": {
+		"_postman_id": "f9956f12-ea4b-4b9f-afb0-91e882fbc1ba",
+		"name": "5GAIoT 官網 API documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "最新消息",
+			"item": [
+				{
+					"name": "更新最新消息",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"test\",\n    \"ts\": \"123234\",\n    \"view_count\": \"123234\",\n    \"content\": \"123234\",\n    \"imageUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"],\n    \"filesUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/latest_news/latest_news.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"latest_news.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取得最新消息",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/latest_news/latest_news.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"latest_news.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新活動看板",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"test\",\n    \"ts\": \"123234\",\n    \"view_count\": \"123234\",\n    \"content\": \"123234\",\n    \"imageUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"],\n    \"filesUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/latest_news/latest_news.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"latest_news.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取得活動看板",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/latest_news/latest_news.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"latest_news.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新媒體報導",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"隨機產生50字標題＿願景使命＿貴榔男遠你一的被不較，與色慷選，入常價難募摩炮我員才吧試當見有博表一友\",\n    \"ts\": \"123234\",\n    \"view_count\": \"1796\",\n    \"content\": \"高雄市是台灣唯一具海空雙港的城市，也是重要的工業之都，長期耕耘鋼鐵、石化、金屬加工、造船等主力產業與製造業，奠定厚實的產業基礎。「亞灣5G AIoT創新園區」將以科技創新作為高雄產業轉型之鑰，協助各相關產業進行更廣泛的數位化及升型。「亞灣5G AIoT創新園區」為實證型創新園區，透過5G AIoT POC➜POS➜POB一條龍實證，建立具主軸特色之國際級標竿應用，打造台灣自主5G AIoT創新產業鏈，藉此建構平台型新聚落，推動高雄亞灣成為下世代科技應用先驅，帶領產業與人才南向，使南北區域均衡發展；並以高雄為基地，鏈結大南向市場，建構全球國際市場出海口。\",\n    \"imageUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"],\n    \"filesUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/latest_news/media_report.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"media_report.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取得媒體報導",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/latest_news/media_report.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"media_report.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新產業新聞",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"隨機產生50字標題＿願景使命＿貴榔男遠你一的被不較，與色慷選，入常價難募摩炮我員才吧試當見有博表一友\",\n    \"ts\": \"123234\",\n    \"view_count\": \"1796\",\n    \"content\": \"高雄市是台灣唯一具海空雙港的城市，也是重要的工業之都，長期耕耘鋼鐵、石化、金屬加工、造船等主力產業與製造業，奠定厚實的產業基礎。「亞灣5G AIoT創新園區」將以科技創新作為高雄產業轉型之鑰，協助各相關產業進行更廣泛的數位化及升型。「亞灣5G AIoT創新園區」為實證型創新園區，透過5G AIoT POC➜POS➜POB一條龍實證，建立具主軸特色之國際級標竿應用，打造台灣自主5G AIoT創新產業鏈，藉此建構平台型新聚落，推動高雄亞灣成為下世代科技應用先驅，帶領產業與人才南向，使南北區域均衡發展；並以高雄為基地，鏈結大南向市場，建構全球國際市場出海口。\",\n    \"imageUrl\": [\"https://develop-5g-landing.web.app/images/demo_news.png?auto=format&fit=max&w=640\",\"https://develop-5g-landing.web.app/images/demo_news.png?auto=format&fit=max&w=640\",\"https://xxxx\"],\n    \"filesUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/latest_news/breaking_news.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"breaking_news.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取得產業新聞",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/latest_news/breaking_news.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"breaking_news.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新影音專區",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"隨機產生50字標題＿願景使命＿貴榔男遠你一的被不較，與色慷選，入常價難募摩炮我員才吧試當見有博表一友\",\n    \"ts\": \"123234\",\n    \"view_count\": \"1796\",\n    \"content\": \"高雄市是台灣唯一具海空雙港的城市，也是重要的工業之都，長期耕耘鋼鐵、石化、金屬加工、造船等主力產業與製造業，奠定厚實的產業基礎。「亞灣5G AIoT創新園區」將以科技創新作為高雄產業轉型之鑰，協助各相關產業進行更廣泛的數位化及升型。「亞灣5G AIoT創新園區」為實證型創新園區，透過5G AIoT POC➜POS➜POB一條龍實證，建立具主軸特色之國際級標竿應用，打造台灣自主5G AIoT創新產業鏈，藉此建構平台型新聚落，推動高雄亞灣成為下世代科技應用先驅，帶領產業與人才南向，使南北區域均衡發展；並以高雄為基地，鏈結大南向市場，建構全球國際市場出海口。\",\n    \"videoUrl\": \"https://www.youtube.com/watch?v=BuUlaD8AZII\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/latest_news/media_section.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"media_section.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取得影音專區",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/latest_news/media_section.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"media_section.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新徵案說明",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"隨機產生50字標題＿願景使命＿貴榔男遠你一的被不較，與色慷選，入常價難募摩炮我員才吧試當見有博表一友\",\n    \"ts\": \"123234\",\n    \"view_count\": \"1796\",\n    \"content\": \"高雄市是台灣唯一具海空雙港的城市，也是重要的工業之都，長期耕耘鋼鐵、石化、金屬加工、造船等主力產業與製造業，奠定厚實的產業基礎。「亞灣5G AIoT創新園區」將以科技創新作為高雄產業轉型之鑰，協助各相關產業進行更廣泛的數位化及升型。「亞灣5G AIoT創新園區」為實證型創新園區，透過5G AIoT POC➜POS➜POB一條龍實證，建立具主軸特色之國際級標竿應用，打造台灣自主5G AIoT創新產業鏈，藉此建構平台型新聚落，推動高雄亞灣成為下世代科技應用先驅，帶領產業與人才南向，使南北區域均衡發展；並以高雄為基地，鏈結大南向市場，建構全球國際市場出海口。\",\n    \"filesUrl\": [\"https://www.youtube.com/watch?v=BuUlaD8AZII\", \"https://xxxxx\", \"https://xxxxx\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/latest_news/open_bid.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"open_bid.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取得徵案說明",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/latest_news/open_bid.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"open_bid.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新公開資料下載區",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"隨機產生50字標題＿願景使命＿貴榔男遠你一的被不較，與色慷選，入常價難募摩炮我員才吧試當見有博表一友\",\n    \"ts\": \"123234\",\n    \"view_count\": \"1796\",\n    \"content\": \"高雄市是台灣唯一具海空雙港的城市，也是重要的工業之都，長期耕耘鋼鐵、石化、金屬加工、造船等主力產業與製造業，奠定厚實的產業基礎。「亞灣5G AIoT創新園區」將以科技創新作為高雄產業轉型之鑰，協助各相關產業進行更廣泛的數位化及升型。「亞灣5G AIoT創新園區」為實證型創新園區，透過5G AIoT POC➜POS➜POB一條龍實證，建立具主軸特色之國際級標竿應用，打造台灣自主5G AIoT創新產業鏈，藉此建構平台型新聚落，推動高雄亞灣成為下世代科技應用先驅，帶領產業與人才南向，使南北區域均衡發展；並以高雄為基地，鏈結大南向市場，建構全球國際市場出海口。\",\n    \"imageUrl\": [\"https://www.youtube.com/watch?v=BuUlaD8AZII\", \"https://xxxxx\", \"https://xxxxx\"],\n    \"filesUrl\": [\"https://www.youtube.com/watch?v=BuUlaD8AZII\", \"https://xxxxx\", \"https://xxxxx\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/latest_news/open_data.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"open_data.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取得公開資料下載區",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/latest_news/open_data.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"open_data.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新產業訊息",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"隨機產生50字標題＿願景使命＿貴榔男遠你一的被不較，與色慷選，入常價難募摩炮我員才吧試當見有博表一友\",\n    \"ts\": \"123234\",\n    \"description\": \"檔案說明檔案說明檔案說明。\",\n    \"filesUrl\": \"https://www.youtube.com/watch?v=BuUlaD8AZII\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/latest_news/industry_information.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"industry_information.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取得產業訊息",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/latest_news/industry_information.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"industry_information.json"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "進駐廠商",
+			"item": [
+				{
+					"name": "更新聯盟廠商及進駐",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"company_name\": \"台灣微軟\",\n    \"comapny_link\": \"https://www.microsoft.com/zh-tw/abouttaiwan/\",\n    \"imgUrl\": \"https://develop-5g-landing.web.app/images/demo_microsoft.svg?auto=format&fit=max&w=256\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/coordination_set_up/coordination_set_up.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"coordination_set_up",
+								"coordination_set_up.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取得聯盟廠商及進駐",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/coordination_set_up/coordination_set_up.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"coordination_set_up",
+								"coordination_set_up.json"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "案例分享",
+			"item": [
+				{
+					"name": "更新推動成果",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"推動成果標題20字_茲主地麼花再常福弟蟑\",\n    \"ts\": \"123234\",\n    \"imgUrl\": \"https://develop-5g-landing.web.app/images/demo_news.png?auto=format&fit=max&w=640\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/use_case/result.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"use_case",
+								"result.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新活動花絮",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"推動成果標題20字_茲主地麼花再常福弟蟑\",\n    \"ts\": \"123234\",\n    \"imgUrl\": \"https://develop-5g-landing.web.app/images/demo_news.png?auto=format&fit=max&w=640\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/use_case/hight_light.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"use_case",
+								"hight_light.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取得推動成果",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/use_case/result.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"use_case",
+								"result.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取得活動花絮",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/use_case/hight_light.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"use_case",
+								"hight_light.json"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "場域介紹",
+			"item": [
+				{
+					"name": "更新最新消息",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"test\",\n    \"ts\": \"123234\",\n    \"view_count\": \"123234\",\n    \"content\": \"123234\",\n    \"imageUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"],\n    \"filesUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/latest_news/latest_news.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"latest_news.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取得最新消息",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/latest_news/latest_news.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"latest_news.json"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
