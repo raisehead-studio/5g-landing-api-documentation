@@ -14,11 +14,18 @@
 						"auth": {
 							"type": "noauth"
 						},
-						"method": "POST",
-						"header": [],
+						"method": "PUT",
+						"header": [
+							{
+								"key": "uid",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"title\": \"test\",\n    \"ts\": \"123234\",\n    \"view_count\": \"123234\",\n    \"content\": \"123234\",\n    \"imageUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"],\n    \"filesUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"]\n}",
+							"raw": "{\n    \"title\": \"test_edited\",\n    \"ts\": \"123234\",\n    \"view_count\": \"123234\",\n    \"content\": \"你看履歷，最先看的是畢業學校嗎？​不是四大，非頂尖學校，你就跳過了嗎？​因最近公司擴編，我也會幫忙留意人選，​在跟我們老闆討論他的期待時，討論到學歷，​我問​「所以要什麼等級的學校以上，才會考慮呢？」​身為前 Manpower 台灣區中高階獵才總經理，​我敬愛的老闆，是我心目中的偶像，​=閱人無數，總是有獨到見解的他，​讓我每次跟他對話都收穫良多。​\",\n    \"imageUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"],\n    \"filesUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -26,13 +33,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/latest_news/latest_news.json",
+							"raw": "{{host}}/latest_news/latest_news/-MjjPkVJtYCW-1a6LWi8.json",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"latest_news",
-								"latest_news.json"
+								"latest_news",
+								"-MjjPkVJtYCW-1a6LWi8.json"
 							]
 						}
 					},
