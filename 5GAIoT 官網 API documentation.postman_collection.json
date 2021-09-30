@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "f9956f12-ea4b-4b9f-afb0-91e882fbc1ba",
+		"_postman_id": "cd0fd541-eaa3-4650-a9ea-a1a220fe97db",
 		"name": "5GAIoT 官網 API documentation",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -8,6 +8,43 @@
 		{
 			"name": "最新消息",
 			"item": [
+				{
+					"name": "新增最新消息",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "uid",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"test_edited2\",\n    \"ts\": \"123234\",\n    \"viewCount\": \"123234\",\n    \"content\": \"你看履歷，最先看的是畢業學校嗎？​不是四大，非頂尖學校，你就跳過了嗎？​因最近公司擴編，我也會幫忙留意人選，​在跟我們老闆討論他的期待時，討論到學歷，​我問​「所以要什麼等級的學校以上，才會考慮呢？」​身為前 Manpower 台灣區中高階獵才總經理，​我敬愛的老闆，是我心目中的偶像，​=閱人無數，總是有獨到見解的他，​讓我每次跟他對話都收穫良多。​\",\n    \"imageUrl\": [\n        { \"desc\": \"圖片說明\", \"url\": \"https://i.imgur.com/qU57oBk.jpeg\" },\n        { \"desc\": \"圖片說明2\", \"url\": \"https://i.imgur.com/qU57oBk.jpeg\" }\n    ],\n    \"filesUrl\": [\n        { \n            \"title\": \"金融機構代收授權書\", \n            \"url\": \"https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/345/relfile/70660/223864/26c14983-649c-4c24-b3c4-96f81c22b410.pdf\" \n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/latest_news/latest_news.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"latest_news",
+								"latest_news.json"
+							]
+						}
+					},
+					"response": []
+				},
 				{
 					"name": "更新最新消息",
 					"request": {
@@ -25,7 +62,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"title\": \"test_edited\",\n    \"ts\": \"123234\",\n    \"view_count\": \"123234\",\n    \"content\": \"你看履歷，最先看的是畢業學校嗎？​不是四大，非頂尖學校，你就跳過了嗎？​因最近公司擴編，我也會幫忙留意人選，​在跟我們老闆討論他的期待時，討論到學歷，​我問​「所以要什麼等級的學校以上，才會考慮呢？」​身為前 Manpower 台灣區中高階獵才總經理，​我敬愛的老闆，是我心目中的偶像，​=閱人無數，總是有獨到見解的他，​讓我每次跟他對話都收穫良多。​\",\n    \"imageUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"],\n    \"filesUrl\": [\"https://xxxx\",\"https://xxxx\",\"https://xxxx\"]\n}",
+							"raw": "{\n    \"title\": \"test_edited2\",\n    \"ts\": \"123234\",\n    \"viewCount\": \"123234\",\n    \"content\": \"你看履歷，最先看的是畢業學校嗎？​不是四大，非頂尖學校，你就跳過了嗎？​因最近公司擴編，我也會幫忙留意人選，​在跟我們老闆討論他的期待時，討論到學歷，​我問​「所以要什麼等級的學校以上，才會考慮呢？」​身為前 Manpower 台灣區中高階獵才總經理，​我敬愛的老闆，是我心目中的偶像，​=閱人無數，總是有獨到見解的他，​讓我每次跟他對話都收穫良多。​\",\n    \"imageUrl\": [\n        { \"desc\": \"圖片說明\", \"url\": \"https://i.imgur.com/qU57oBk.jpeg\" },\n        { \"desc\": \"圖片說明2\", \"url\": \"https://i.imgur.com/qU57oBk.jpeg\" }\n    ],\n    \"filesUrl\": [\n        { \n            \"title\": \"金融機構代收授權書\", \n            \"url\": \"https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/345/relfile/70660/223864/26c14983-649c-4c24-b3c4-96f81c22b410.pdf\" \n        }\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -33,14 +70,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/latest_news/latest_news/-MjjPkVJtYCW-1a6LWi8.json",
+							"raw": "{{host}}/latest_news/latest_news/-MkrLYhcKh3ap-boLMZg.json",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"latest_news",
 								"latest_news",
-								"-MjjPkVJtYCW-1a6LWi8.json"
+								"-MkrLYhcKh3ap-boLMZg.json"
 							]
 						}
 					},
@@ -85,13 +122,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/latest_news/latest_news.json",
+							"raw": "{{host}}/latest_news/feeds.json",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"latest_news",
-								"latest_news.json"
+								"feeds.json"
 							]
 						}
 					},
@@ -106,13 +143,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/latest_news/latest_news.json",
+							"raw": "{{host}}/latest_news/feeds.json",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"latest_news",
-								"latest_news.json"
+								"feeds.json"
 							]
 						}
 					},
@@ -638,6 +675,45 @@
 							"path": [
 								"latest_news",
 								"latest_news.json"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "相關連結",
+			"item": [
+				{
+					"name": "取得相關連結",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/related_links.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"related_links.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "新增相關連結",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/related_links.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"related_links.json"
 							]
 						}
 					},
